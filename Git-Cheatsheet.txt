@@ -1,6 +1,11 @@
 Git Cheatsheet
-- git init							: untuk inisialisasi git pada repo lokal
-- git clone							: untuk download repo dari github address
-- git push -u origin <nama branch>	: untuk mengirimkan semua yang ada di repo lokal ke repo remote
-- git remote add <git-address>		: untuk menambahkan repo remote
-- git remote -v 					: untuk melihat detail / alamat repo remote
+- git init							                                  : untuk inisialisasi git pada repo lokal
+- git add <nama file>                                         : untuk menambahkan file atau apapun ke dalam git
+- git commit -am "[username / name] message"     : untuk cek point / memberi note bahwa ini sudah di kunci/sdh diketok palu
+- git push -u origin <nama branch>	                 : untuk mengirimkan apapun yang ada di repo lokal ke repo remote pertama kali
+- git push                                                        : untuk mengirimkan apapaun yang ada di repo lokal ke repo remote
+- git remote add <git-address>	    	                 : untuk menambahkan repo remote
+- git remote -v 				               	                 : untuk melihat detail / alamat repo remote
+- git clone						            	                 : untuk download repo dari github address
+- git pull                                                          : untuk mengambil update data dari repo remote
+- git status                                                       : untuk melihat status atau informasi dari git
