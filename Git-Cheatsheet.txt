@@ -9,3 +9,4 @@ Git Cheatsheet
 - git clone						            	                 : untuk download repo dari github address
 - git pull                                                          : untuk mengambil update data dari repo remote
 - git status                                                       : untuk melihat status atau informasi dari git
+- git log                                                           : untuk melihat history / melihat semua commit kita
